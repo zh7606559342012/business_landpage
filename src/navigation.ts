@@ -10,19 +10,19 @@ export const headerData = {
       text: '兴趣社群',
       links: [
         {
-          text: '自媒体',
+          text: '自媒体社群',
           href: getPermalink('/homes/saas'),
         },
         {
-          text: '金融投资',
+          text: '金融投资社群',
           href: getPermalink('/homes/startup'),
         },
         {
-          text: '创业',
+          text: '创业社群',
           href: getPermalink('/homes/mobile-app'),
         },
         {
-          text: '私董会',
+          text: '私董会社群',
           href: getPermalink('/homes/personal'),
         },
       ],
@@ -128,50 +128,50 @@ export const headerData = {
 
 export const footerData = {
   links: [
+    // {
+    //   title: 'Product',
+    //   links: [
+    //     { text: 'Features', href: '#' },
+    //     { text: 'Security', href: '#' },
+    //     { text: 'Team', href: '#' },
+    //     { text: 'Enterprise', href: '#' },
+    //     { text: 'Customer stories', href: '#' },
+    //     { text: 'Pricing', href: '#' },
+    //     { text: 'Resources', href: '#' },
+    //   ],
+    // },
+    // {
+    //   title: 'Platform',
+    //   links: [
+    //     { text: 'Developer API', href: '#' },
+    //     { text: 'Partners', href: '#' },
+    //     { text: 'Atom', href: '#' },
+    //     { text: 'Electron', href: '#' },
+    //     { text: 'AstroWind Desktop', href: '#' },
+    //   ],
+    // },
     {
-      title: 'Product',
+      title: '客服支持',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: '联系我', href: '#' },
+        // { text: 'Community Forum', href: '#' },
+        // { text: 'Professional Services', href: '#' },
+        // { text: 'Skills', href: '#' },
+        // { text: 'Status', href: '#' },
       ],
     },
-    {
-      title: 'Platform',
-      links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
-      ],
-    },
-    {
-      title: 'Support',
-      links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
-      ],
-    },
-    {
-      title: 'Company',
-      links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
-      ],
-    },
+    // {
+    //   title: 'Company',
+    //   links: [
+    //     { text: 'About', href: '#' },
+    //     { text: 'Blog', href: '#' },
+    //     { text: 'Careers', href: '#' },
+    //     { text: 'Press', href: '#' },
+    //     { text: 'Inclusion', href: '#' },
+    //     { text: 'Social Impact', href: '#' },
+    //     { text: 'Shop', href: '#' },
+    //   ],
+    // },
   ],
   secondaryLinks: [
     { text: 'Terms', href: getPermalink('/terms') },
