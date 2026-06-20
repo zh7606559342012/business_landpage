@@ -3,119 +3,127 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'Home',
+      href: getPermalink('/')
+    },
+    {
+      text: '兴趣社群',
       links: [
         {
-          text: 'SaaS',
+          text: '自媒体',
           href: getPermalink('/homes/saas'),
         },
         {
-          text: 'Startup',
+          text: '金融投资',
           href: getPermalink('/homes/startup'),
         },
         {
-          text: 'Mobile App',
+          text: '创业',
           href: getPermalink('/homes/mobile-app'),
         },
         {
-          text: 'Personal',
+          text: '私董会',
           href: getPermalink('/homes/personal'),
         },
       ],
     },
     {
-      text: 'Pages',
+      text: '投资交易',
       links: [
         {
-          text: 'Features (Anchor Link)',
+          text: '基金',
           href: getPermalink('/#features'),
         },
         {
-          text: 'Services',
+          text: 'A股',
           href: getPermalink('/services'),
         },
         {
-          text: 'Pricing',
+          text: '美股',
           href: getPermalink('/pricing'),
         },
         {
-          text: 'About us',
+          text: '加密货币',
           href: getPermalink('/about'),
         },
-        {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
+        // {
+        //   text: 'Contact',
+        //   href: getPermalink('/contact'),
+        // },
+        // {
+        //   text: 'Terms',
+        //   href: getPermalink('/terms'),
+        // },
+        // {
+        //   text: 'Privacy policy',
+        //   href: getPermalink('/privacy'),
+        // },
       ],
     },
     {
-      text: 'Landing',
+      text: '账号购买',
       links: [
         {
-          text: 'Lead Generation',
+          text: 'AI大模型',
           href: getPermalink('/landing/lead-generation'),
         },
         {
-          text: 'Long-form Sales',
+          text: '网站账号购买',
           href: getPermalink('/landing/sales'),
         },
         {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
+          text: '个人建站支持',
+          href: getPermalink('/landing/sales'),
         },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
+        // {
+        //   text: 'Click-Through',
+        //   href: getPermalink('/landing/click-through'),
+        // },
+        // {
+        //   text: 'Product Details (or Services)',
+        //   href: getPermalink('/landing/product'),
+        // },
+        // {
+        //   text: 'Coming Soon or Pre-Launch',
+        //   href: getPermalink('/landing/pre-launch'),
+        // },
+        // {
+        //   text: 'Subscription',
+        //   href: getPermalink('/landing/subscription'),
+        // },
       ],
     },
     {
-      text: 'Blog',
+      text: '联系我',
       links: [
         {
-          text: 'Blog List',
+          text: '微信',
           href: getBlogPermalink(),
         },
         {
-          text: 'Article',
+          text: 'QQ',
           href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
         },
         {
-          text: 'Article (with MDX)',
+          text: 'Telegram',
           href: getPermalink('markdown-elements-demo-post', 'post'),
         },
         {
-          text: 'Category Page',
+          text: 'Telegram交流群',
           href: getPermalink('tutorials', 'category'),
         },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
+        // {
+        //   text: 'Tag Page',
+        //   href: getPermalink('astro', 'tag'),
+        // },
       ],
     },
-    {
-      text: 'Widgets',
-      href: '#',
-    },
+    // {
+    //   text: 'Widgets',
+    //   href: '#',
+    // },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
+  // actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
@@ -170,13 +178,15 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/astin4355526862' },
+    { ariaLabel: 'Telegram', icon: 'tabler:brand-telegram', href: 'https://t.me/spider_asmr' },
+    { ariaLabel: 'Youtube', icon: 'tabler:brand-youtube', href: 'https://www.youtube.com/channel/UCrue9puceK0-TT5_JYY448A?sub_confirmation=1' },
+    // { ariaLabel: 'Wechat', icon: 'tabler:brand-wechat', href: '#' },
+    // { ariaLabel: 'QQ', icon: 'tabler:brand-qq', href: '#' },
+    // { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
+    // { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/arthelokyo"> Arthelokyo</a> · All rights reserved.
+    FlyBird 小郑 · All rights reserved.
   `,
 };
